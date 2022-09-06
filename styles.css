@@ -20,11 +20,13 @@ body {
     justify-content: space-between;
 }
 
-.logo, .banner-left {
+.logo,
+.banner-left {
     margin: 0px 0px 0px 50px;
 }
 
-.toplink, .banner-right {
+.toplink,
+.banner-right {
     margin: 0px 50px 0px 0px;
 }
 
@@ -59,52 +61,81 @@ body {
 }
 
 .banner-right {
-    background-color:#e5e7eb;
+    background-color: #e5e7eb;
     height: 180px;
     width: 320px;
-    color:#1f2937;
+    color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.section-one, .section-two {
+.section-one,
+.section-two {
     height: 420px;
     width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .section-two {
-    background-color:#e5e7eb;
+    background-color: #e5e7eb;
 }
 
 
 .box-pics {
     height: 100px;
     width: 100px;
-    border: 1px solid red;
+    border: 3px solid #3882f6;
     border-radius: 5px;
 }
 
-.container: {
+.container {
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
 }
 
 .info {
+    max-width: 200px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-text {
     font-size: 48px;
     font-weight: bold;
-    color:#e5e7eb;
+    color: #e5e7eb;
 }
 
 p {
     font-size: 18px;
     color: #e5e7eb;
     margin: 8px 0px;
+}
+
+img {
+    display: block;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.text {
+    font-size: 18px;
+    padding: 8px 0px;
 }
 
 ul {
@@ -122,7 +153,7 @@ li {
 
 button {
     background-color: #3882f6;
-    color:#e5e7eb;
+    color: #e5e7eb;
     padding: 8px 16px;
     border: none;
     border-radius: 5px;
@@ -130,5 +161,5 @@ button {
     text-align: center;
     font-size: 16px;
     margin: 8px 0px;
-    
+
 }
