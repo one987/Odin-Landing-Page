@@ -62,8 +62,8 @@ body {
 
 .banner-right {
     background-color: #e5e7eb;
-    height: 180px;
-    width: 320px;
+    height: 250px;
+    width: 450px;
     color: #1f2937;
     display: flex;
     align-items: center;
@@ -109,8 +109,8 @@ body {
 }
 
 .box-pics {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border: 3px solid #3882f6;
     border-radius: 5px;
 }
@@ -139,7 +139,7 @@ body {
 .bla,
 .action {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #eee;
     margin: 8px 0px;
 }
 
@@ -197,7 +197,7 @@ li {
 
 button {
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #eee;
     padding: 8px 18px;
     border: none;
     border-radius: 5px;
@@ -209,9 +209,9 @@ button {
 
 #submit-two {
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #eee;
     padding: 8px 18px;
-    border: 2px solid #e5e7eb;
+    border: 2px solid #eee;
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
@@ -220,11 +220,11 @@ button {
 }
 
 button:hover {
-    background-color: #e5e7eb;
+    background-color: #eee;
     color:#3882f6;
 }
 
 #submit-two:hover {
-    background-color: #e5e7eb;
+    background-color: #eee;
     color:#3882f6;
 }
